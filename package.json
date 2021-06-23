@@ -1,0 +1,24 @@
+{
+  "name": "cowin-helper",
+  "version": "1.0.0",
+  "description": "A web application that notifies registered user when their prefered vaccination centers are available",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "devstart": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psdhanesh7/cowin-helper.git"
+  },
+  "author": "Dhanesh P S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psdhanesh7/cowin-helper/issues"
+  },
+  "homepage": "https://github.com/psdhanesh7/cowin-helper#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
