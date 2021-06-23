@@ -1,6 +1,10 @@
 const express = require('express');
 
+const metaDataRoutes = require('./routes/metaDataRoutes');
+
 const app = express();
+
+app.use('/api/metadata', metaDataRoutes);
 
 const PORT = process.env.PORT || 5000;
 
