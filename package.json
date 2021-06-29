@@ -19,6 +19,11 @@
   },
   "homepage": "https://github.com/psdhanesh7/cowin-helper#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "@sendgrid/mail": "^7.4.5",
+    "axios": "^0.21.1",
+    "dateformat": "^4.5.1",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.9.0",
+    "node-cron": "^3.0.0"
   }
 }
