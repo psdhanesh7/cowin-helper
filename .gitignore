@@ -2,3 +2,5 @@ node_modules
 serviceAccountKey.json
 
 dev.js
+
+/client/src/config/dev.js
