@@ -95,9 +95,9 @@ const notifyUsers = (district) => {
 										from: 'psdhanesh777@gmail.com',
 										subject: 'Vaccination center availability',
 										body: `${session.name}\n
-										Available Capacity: ${session.available_capacity}
-										Available Capacity Dose1: ${session.available_capacity_dose1}
-										Available Capacity Dose2: ${session.available_capacity_dose2}`,
+											Available Capacity: ${session.available_capacity}
+											Available Capacity Dose1: ${session.available_capacity_dose1}
+											Available Capacity Dose2: ${session.available_capacity_dose2}`,
 										recipients: [userDoc.data().email],
 									};
 	

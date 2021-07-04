@@ -1,8 +1,11 @@
 const express = require('express');
 
 const notifyUsersSetup = require('./controllers/notifyUsersSetup');
+const { getUser } = require('./controllers/userManager');
 
 notifyUsersSetup();
+
+// getUser('psdhanesh2000@gmail.com');
 
 const app = express();
 
