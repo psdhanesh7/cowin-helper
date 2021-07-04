@@ -1,1 +1,7 @@
 node_modules
+serviceAccountKey.json
+createBase64.js
+base64.dat
+
+dev.js
+
